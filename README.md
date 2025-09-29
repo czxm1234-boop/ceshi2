@@ -9,7 +9,7 @@ export default async function handler(req, res) {
   }
   
   try {
-    const targetUrl = 'https://www.dy558dy.shop/data';
+    const targetUrl = 'https://api.dy558dy.shop/data';
     
     const response = await fetch(targetUrl);
     const data = await response.json();
